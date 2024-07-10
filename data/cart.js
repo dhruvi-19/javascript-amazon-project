@@ -77,9 +77,7 @@ export function removeFromCart(productId) {
   
     xhr.addEventListener('load', () => {
       console.log(xhr.response);
-  
-      console.log('load products');
-  
+      
       fun();
     });
   
